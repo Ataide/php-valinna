@@ -1,0 +1,79 @@
+html,
+body {
+  background-color: #171717;
+}
+
+* {
+  font-size: 100%;
+  color: white;
+}
+
+.stats input {
+  color: #ce3d52;
+}
+
+.tab-container {
+  margin-top: 20px;
+  background-color: #262626;
+  border-radius: 10px;
+}
+.table {
+  background-color: #000;
+  text-align: center;
+}
+
+.table tbody {
+  border-top: 3px solid #ce3d52;
+}
+
+.table thead {
+  background-color: #ce3d52;
+  font-size: 12px;
+}
+
+.tab-content {
+  padding: 40px;
+}
+
+.nav-tabs {
+  border-bottom: 4px solid #ce3d52;
+}
+
+.form-select option {
+  color: #000 !important;
+}
+
+.nav-tabs .nav-link {
+  color: white;
+}
+.nav-tabs .nav-link.active {
+  color: #fff;
+  background-color: #ce3d52;
+  border-color: #ce3d52;
+}
+.form-control:disabled,
+.form-control[readonly] {
+  background-color: #171716;
+  border-color: #171716;
+  border-radius: 8px;
+  opacity: 1;
+}
+
+.modal-content {
+  height: 100%;
+  padding: 20px;
+
+  background-color: #262626;
+}
+
+.modal-content input:disabled {
+  color: white;
+}
+
+.modal-header {
+  border-bottom: none;
+}
+
+textarea.form-control:disabled {
+  color: #ce3d52;
+}
